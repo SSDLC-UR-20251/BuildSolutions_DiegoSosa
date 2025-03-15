@@ -26,8 +26,8 @@ public class AppTest {
         String usuario = "juan.jose@urosario.edu.co";
         List<JSONObject> transacciones = App.obtenerTransacciones(jsonData, usuario);
         assertEquals(2, transacciones.size(), "El número de transacciones no es correcto");
-        assertEquals("juan.jose@urosario.edu.co", transacciones.get(0).getString("usuario"), "El usuario no coincide");
-}
+        assertEquals("juan.jose@urosario.edu.co", transacciones.get(0).getString("juan.jose@urosario.edu.co"), "El usuario no coincide");
+    }
 
     @Test
     public void testGenerarExtracto() {
