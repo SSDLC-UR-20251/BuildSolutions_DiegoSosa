@@ -1,0 +1,6 @@
+Extracto bancario para: juan.jose@urosario.edu.co
+====================================
+timestamp: 2023-10-01
+balance: 100.0
+type: Withdrawal
+------------------------------------

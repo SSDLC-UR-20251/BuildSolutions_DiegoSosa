@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project name="Hello World Project" default="info">
+   <target name="info">
+      <echo>Hello World - Welcome to Apache Ant!</echo>
+      <exec executable="python3">
+        <arg value="main.py"/>
+        <arg value="3"/>
+      </exec>
+   </target>
+</project>
